@@ -87,12 +87,14 @@ The below file is now updated to **Glacier Flexible Retrieval (formerly Glacier)
 ### Cloud Watch Log
 
 **Successful Arichival**
+
 Cloud watch log output of each of the trigger of the lambda function. This is successful archival log format when the files is archived.
 
 ![alt text](output/cloud_watch_output.png)
 
 
-**Successful Arichival**
+**No Eligible items for Arichival**
+
 Cloud watch log output of each of the trigger of the lambda function. This is successful archival log format when there is no files eligible for archival. 
 
 ![alt text](output/cloud_watch_output_no_items.png)
